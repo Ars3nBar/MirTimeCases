@@ -19,4 +19,22 @@
     <dependencies>
         <dependency>
             <groupId>io.papermc.paper</groupId>
-            <artifactId>paAȵѥ%(ٕͥĸĸеHĵM9AM!=Pٕͥ(͍ɽ٥͍(𽑕(𽑕(ե(՝(՝(ɽ%ɜٕ՝ɽ%(ѥ%ٕȵ՝ѥ%(̸ٕͥĸٕͥ(񍽹Ʌѥ(ͽɍͽɍ(хɝхɝ(𽍽Ʌѥ(՝(՝(ե(ɽ
+            <artifactId>paper-api</artifactId>
+            <version>1.21.4-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
+                <configuration>
+                    <source>21</source>
+                    <target>21</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
